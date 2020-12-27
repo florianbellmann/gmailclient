@@ -1,0 +1,26 @@
+{
+  "name": "gmailclient",
+  "version": "1.0.0",
+  "description": "CLI Gmail Client to send simple mails from scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianjuesten/gmailclient.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianjuesten/gmailclient/issues"
+  },
+  "homepage": "https://github.com/florianjuesten/gmailclient#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "winston": "^3.3.3"
+  }
+}
