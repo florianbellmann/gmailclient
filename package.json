@@ -4,7 +4,7 @@
   "description": "CLI Gmail Client to send simple mails from scripts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/florianjuesten/gmailclient#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "googleapis": "^66.0.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.32",
     "winston": "^3.3.3"
